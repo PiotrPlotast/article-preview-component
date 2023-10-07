@@ -7,6 +7,7 @@
   <!-- displays site properly based on user's device -->
   <link rel="stylesheet" href="./styles/style.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet">
 
   <title>Frontend Mentor | Article preview component</title>
 </head>
@@ -14,30 +15,31 @@
 <body>
   <main>
     <div class="card">
-      <img src="./images/drawers.jpg" alt="drawers with a vase on top of it">
-      <h1>Shift the overall look and feel by adding these wonderful
-        touches to furniture in your home</h1>
+      <img src="./images/drawers.jpg" alt="drawers with a vase and pictures on top of it" class="card__bg-img">
+      <div class="text-wrapper">
+        <h1 class="card__heading">Shift the overall look and feel by adding these wonderful
+          touches to furniture in your home</h1>
 
-      <p>Ever been in a room and felt like something was missing? Perhaps
-        it felt slightly bare and uninviting. I’ve got some simple tips
-        to help you make any room feel complete.</p>
-      <div class="author">
-        <img src="./images/avatar-michelle.jpg" alt="">
-        Michelle Appleton
-        28 Jun 2020
+        <p class="card__text">Ever been in a room and felt like something was missing? Perhaps
+          it felt slightly bare and uninviting. I’ve got some simple tips
+          to help you make any room feel complete.</p>
+        <div class="author">
+          <img src="./images/avatar-michelle.jpg" alt="" class="author__avatar">
+          <p><span class="author__name">Michelle Appleton</span><br><span class="author__date">28 Jun 2020</span></p>
+          <button class="share-btn"><img src="./images/icon-share.svg" alt="share button"></button>
+        </div>
+        <div class="social">
+          <a href="https://www.linkedin.com/in/piotr-p%C5%82otast-032308261/" aria-label="share this post">
+            <p class="share-text">SHARE</p>
+          </a>
+          <a href="https://www.github.com/PiotrPlotast"><img src="./images/icon-facebook.svg" alt="facebook"
+              aria-label="link to facebook"></a>
+          <a href="https://www.github.com/PiotrPlotast"><img src="./images/icon-twitter.svg" alt="twitter"
+              aria-label="link to twitter"></a>
+          <a href="https://www.frontendmentor.io/challenges/article-preview-component-dYBN_pYFT"><img
+              src="./images/icon-pinterest.svg" alt="pinterest" aria-label="link to pinterest"></a>
+        </div>
       </div>
-      <div class="social">
-        <a href="https://www.linkedin.com/in/piotr-p%C5%82otast-032308261/" aria-label="share this post">
-          <p class="share-text">SHARE</p>
-        </a>
-        <a href="https://www.github.com/PiotrPlotast"><img src="./images/icon-facebook.svg" alt="facebook"
-            aria-label="link to facebook"></a>
-        <a href="https://www.github.com/PiotrPlotast"><img src="./images/icon-twitter.svg" alt="twitter"
-            aria-label="link to twitter"></a>
-        <a href="https://www.frontendmentor.io/challenges/article-preview-component-dYBN_pYFT"><img
-            src="./images/icon-pinterest.svg" alt="pinterest" aria-label="link to pinterest"></a>
-      </div>
-      <button class="share-btn"><img src="./images/icon-share.svg" alt="share button"></button>
     </div>
   </main>
   <script src="./scripts/app.js"></script>
