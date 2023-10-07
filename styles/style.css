@@ -114,6 +114,7 @@ main {
 
 .author {
   display: flex;
+  align-items: center;
 }
 .author .author__avatar {
   width: 40px;
@@ -129,22 +130,21 @@ main {
   color: hsl(212, 23%, 69%);
   font-weight: 400;
 }
-
-.social {
-  display: none;
-}
-
-.share-btn {
-  margin-left: 25%;
+.author .share-btn {
+  margin-left: 20%;
   border: none;
   border-radius: 50%;
   width: 35px;
   height: 35px;
   background-color: hsl(210, 46%, 95%);
 }
-.share-btn img {
+.author .share-btn img {
   padding-left: 5px;
   width: 20px;
+}
+
+.social {
+  display: none;
 }
 
 /*# sourceMappingURL=style.css.map */
