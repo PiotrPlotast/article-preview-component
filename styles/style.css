@@ -110,6 +110,7 @@ main {
 .card__text {
   color: hsl(214, 17%, 51%);
   margin-bottom: 2rem;
+  margin-right: 0.8rem;
 }
 
 .author {
@@ -134,12 +135,12 @@ main {
   margin-left: 20%;
   border: none;
   border-radius: 50%;
-  width: 35px;
-  height: 35px;
+  width: 33px;
+  height: 33px;
   background-color: hsl(210, 46%, 95%);
 }
 .author .share-btn img {
-  padding-left: 5px;
+  padding-left: 4px;
   width: 20px;
 }
 
