@@ -42,9 +42,14 @@ main {
     margin-right: 0.8rem;
 }
 
+.author-wrapper {
+    display: flex;
+}
+
 .author {
     display: flex;
     align-items: center;
+    justify-content: space-between;
 
     .author__avatar {
         width: 40px;
