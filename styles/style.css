@@ -143,10 +143,19 @@ main {
   width: 33px;
   height: 33px;
   background-color: hsl(210, 46%, 95%);
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.author .share-btn:hover {
+  background-color: hsl(214, 17%, 51%);
+}
+.author .share-btn:hover img {
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(0deg) brightness(150%) contrast(100%);
 }
 .author .share-btn img {
   padding-left: 4px;
   width: 20px;
+  transition: all 0.3s ease-in-out;
 }
 
 .social {
