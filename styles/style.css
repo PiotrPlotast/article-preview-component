@@ -158,8 +158,19 @@ main {
   transition: all 0.3s ease-in-out;
 }
 
-.social {
+.socials {
   display: none;
+  background-color: hsl(217, 19%, 35%);
+  justify-content: space-around;
+}
+.socials a {
+  margin: 7% 0.5rem;
+}
+.socials .socials__share-link {
+  text-decoration: none;
+  color: hsl(212, 23%, 69%);
+  letter-spacing: 5px;
+  margin-left: 2rem;
 }
 
 /*# sourceMappingURL=style.css.map */
