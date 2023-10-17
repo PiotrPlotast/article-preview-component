@@ -1,17 +1,19 @@
-const button = document.querySelector('.share-btn');
+const openMenuBtn = document.querySelector('.open-menu-btn');
+const closeMenuBtn = document.querySelector('.close-menu-btn');
 const socials = document.querySelector('.socials');
 const author = document.querySelector('.author');
 
 
-function share() {
-    if (socials.style.display === 'none') {
-        socials.style.display = 'flex';
-        author.style.display = 'none';
-    } else {
-        socials.style.display = 'none';
-        author.style.display = 'flex';
-    }
+function openMenu() {
+    socials.style.display = 'flex';
+    author.style.display = 'none';
 }
 
-button.addEventListener('click', share);
-button.onclick = share;
+function closeMenu() {
+    socials.style.display = 'none';
+    author.style.display = 'flex';
+}
+
+openMenuBtn.addEventListener('click', openMenu);
+
+closeMenuBtn.addEventListener('click', closeMenu);

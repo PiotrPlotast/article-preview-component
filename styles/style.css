@@ -136,7 +136,7 @@ main {
   color: hsl(212, 23%, 69%);
   font-weight: 400;
 }
-.author .share-btn {
+.author .open-menu-btn {
   margin-left: 20%;
   border: none;
   border-radius: 50%;
@@ -146,13 +146,13 @@ main {
   cursor: pointer;
   transition: all 0.3s ease-in-out;
 }
-.author .share-btn:hover {
+.author .open-menu-btn:hover {
   background-color: hsl(214, 17%, 51%);
 }
-.author .share-btn:hover img {
+.author .open-menu-btn:hover img {
   filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(0deg) brightness(150%) contrast(100%);
 }
-.author .share-btn img {
+.author .open-menu-btn img {
   pointer-events: none;
   padding-left: 4px;
   width: 20px;
