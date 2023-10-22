@@ -203,6 +203,7 @@ main {
     max-width: 770px;
     height: 300px;
     position: relative;
+    overflow: visible;
   }
   .card .card__bg-img {
     height: 300px;
@@ -226,8 +227,26 @@ main {
   }
   .card .socials {
     position: absolute;
+    padding-left: 1rem;
+    padding-right: 1rem;
     border-radius: 10px;
-    clip-path: polygon(0% 0%, 100% 0%, 100% 83%, 56% 83%, 50% 100%, 44% 84%, 0 83%);
+    left: 600px;
+    top: 48%;
+  }
+  .card .socials::before {
+    content: "";
+    position: absolute;
+    top: 50px;
+    width: 0;
+    height: 0;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-top: 25px solid hsl(217, 19%, 35%);
+  }
+  .card .close-menu-btn {
+    position: absolute;
+    top: 91px;
+    left: 99px;
   }
 }
 
