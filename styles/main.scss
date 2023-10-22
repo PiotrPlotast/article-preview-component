@@ -138,3 +138,43 @@ main {
         }
     }
 }
+
+@media (min-width: 700px) {
+    .card {
+        display: flex;
+        max-width: 770px;
+        height: 300px;
+        position: relative;
+
+        .card__bg-img {
+            height: 300px;
+            max-width: 300px;
+        }
+
+        .card__heading {
+            font-size: 1.4rem;
+            margin-bottom: .6rem;
+        }
+
+        .card__text {
+            font-size: 0.85rem;
+        }
+
+        .text-wrapper {
+            padding-bottom: 0;
+            padding-top: 5%;
+        }
+
+        .author {
+            font-size: 0.9rem;
+            margin-top: 5%;
+            margin-right: 12%;
+        }
+
+        .socials {
+            position: absolute;
+            border-radius: 10px;
+            clip-path: polygon(0% 0%, 100% 0%, 100% 83%, 56% 83%, 50% 100%, 44% 84%, 0 83%);
+        }
+    }
+}
