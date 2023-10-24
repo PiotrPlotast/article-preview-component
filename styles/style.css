@@ -197,7 +197,7 @@ main {
   filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(0deg) brightness(150%) contrast(100%);
 }
 
-@media (min-width: 700px) {
+@media (min-width: 800px) {
   .card {
     display: flex;
     max-width: 770px;
@@ -234,12 +234,13 @@ main {
     padding-right: 1rem;
     border-radius: 10px;
     left: 50%;
-    top: 50%;
+    top: 47%;
   }
   .card .socials::before {
     content: "";
     position: absolute;
     top: 50px;
+    right: 43.5px;
     width: 0;
     height: 0;
     border-left: 25px solid transparent;
@@ -249,7 +250,7 @@ main {
   .card .close-menu-btn {
     position: absolute;
     top: 130%;
-    left: 43%;
+    left: 63%;
   }
 }
 
