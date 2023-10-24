@@ -171,13 +171,18 @@ main {
             margin-right: 12%;
         }
 
+        .desktop-wrapper {
+            position: relative;
+            overflow: visible;
+        }
+
         .socials {
             position: absolute;
             padding-left: 1rem;
             padding-right: 1rem;
             border-radius: 10px;
-            left: 600px;
-            top: 48%;
+            left: 50%;
+            top: 50%;
         }
 
         .socials::before {
@@ -193,8 +198,8 @@ main {
 
         .close-menu-btn {
             position: absolute;
-            top: 91px;
-            left: 99px;
+            top: 130%;
+            left: 43%;
         }
     }
 }
